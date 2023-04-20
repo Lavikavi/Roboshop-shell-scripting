@@ -12,4 +12,4 @@ systemctl start user
 
 cp mongo.repo /etc/yum.repos.d/mongo.repo
 yum install mongodb-org-shell -y
-mongo --host mongo-dev.devopsb62.online </app/schema/user.js
+mongo --host mongosh-dev.devopsb62.online </app/schema/user.js
